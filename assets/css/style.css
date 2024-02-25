@@ -1,0 +1,169 @@
+@import "https://fonts.googleapis.com/css2?family=Open+Sans:300..800|Roboto:100;300;400;500;700;900";
+
+* {
+  border: 0;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+}
+
+body {
+  color: #1b1f21;
+  font-family: "Roboto", "Open Sans", "Courier New", Courier, monospace;
+}
+
+.container {
+  display: flex;
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color:#fff;
+  flex: 0 0 20%;
+}
+
+.user {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px 0px 20px 0px;
+  border: 1px solid #e8ebe4;
+}
+
+.user-content {
+  display: flex;
+  align-items: center;
+}
+
+.user-content img {
+  height: 50px;
+  border-color: #e8ebe4;
+  border-radius: 50%;
+}
+
+.user-status {
+  padding: 0 10px;
+}
+
+.user-status h3 {
+  font-weight: 500;
+  font-size: 1em;
+  padding: 0 0 3px;
+}
+
+.user-status p {
+  font-weight: 100;
+  font-size: 12px;
+  color: #828485;
+}
+
+.ui-icons {
+  display: flex;
+  align-items: center;
+}
+
+.ui-icons i {
+  font-size: 25px;
+  color: #828485;
+  padding: 10px;
+}
+
+#new-chat-button {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border: 1px solid #e8ebe4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#new-chat-button a {
+  padding: 10px 50px;
+  background-color: #a491d2;
+  font-size: 1em;
+  font-weight: 400;
+  text-decoration: none;
+  color: #fff;
+}
+
+#new-chat-button a:hover {
+  background-color: #cdc3e6;
+}
+
+#chats ul {
+  display: flex;
+  flex-direction: column;
+}
+
+#chats li {
+  border: 1px solid #e8ebe4;
+}
+
+#chats a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #1b1f21;
+  padding: 15px 35px;
+}
+
+#chats .chat-text {
+  padding: 5px 0px 5px 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+#chats img {
+  border-radius: 50%;
+  border-color: #e8ebe4;
+  height: 60px;
+}
+
+#chats h3 {
+  font-weight: 500;
+  font-size: 1em;
+}
+
+#chats p {
+  font-size: 14px;
+  font-weight: 300;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 1 1 75%;
+  background-color: #f6f6f6;
+  padding: 10px;
+  border: 1px solid #e8ebe4;
+  min-height: 100vh;
+}
+
+main h2 {
+  font-size: 45px;
+  font-weight: 400;
+  text-align: center;
+  margin: 10px;
+}
+
+main p {
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+main span {
+  font-weight: 500;
+}
+
+main img {
+  height: 400px;
+  margin: 1em;
+}
+
